@@ -34,6 +34,9 @@
 		
 	
 	3、预测高价值用户top5
+	
+	
+	5、电力客户行为分析
 		
 
 # 模型优化：
@@ -55,4 +58,24 @@
 		○ https://mp.weixin.qq.com/s?__biz=MzIxNjE1Njg4OA==&mid=100000074&idx=1&sn=3073ebdfd0a081cb6485e7f6c0e9afc9&chksm=178c1efd20fb97eb04586d0f6757f40eee42170a1d71196762cc33751a25df75adbc5d329821&mpshare=1&scene=23&srcid=0518olygZZCnGt2yLNZkepYU&sharer_sharetime=1652861545327&sharer_shareid=32db0bc2d3c4c22843f068f1a5ea1660#rd
           2015.01.01—2016.08.31中国江苏省扬中市1000多家企业每日用电量数据
    
+   
+ 
 
+		
+
+# 模型优化：
+    1、任务5：k-means聚类模型
+        通过用电曲线特征进行聚类的簇的划分，最终得出对于这组数据选择两簇
+
+# 分析评估：
+    任务5
+        1、对于用电特征的选取为将所获取数据的每天缴费的电量用用电曲线表示
+        2、将用电曲线作为一种特征进行聚类的划分
+        3、最终分得两组聚类
+
+# 运行/部署：
+
+# 数据来源：
+	• Tianchi_power.csv 
+		○ https://mp.weixin.qq.com/s?__biz=MzIxNjE1Njg4OA==&mid=100000074&idx=1&sn=3073ebdfd0a081cb6485e7f6c0e9afc9&chksm=178c1efd20fb97eb04586d0f6757f40eee42170a1d71196762cc33751a25df75adbc5d329821&mpshare=1&scene=23&srcid=0518olygZZCnGt2yLNZkepYU&sharer_sharetime=1652861545327&sharer_shareid=32db0bc2d3c4c22843f068f1a5ea1660#rd
+          2015.01.01—2016.08.31中国江苏省扬中市1000多家企业每日用电量数据
