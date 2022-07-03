@@ -1,11 +1,6 @@
-# 数据来源：
-	• cph.xlsx                             
-		○ 示例数据集
-	• Tianchi_power.csv 
-		○ https://mp.weixin.qq.com/s?__biz=MzIxNjE1Njg4OA==&mid=100000074&idx=1&sn=3073ebdfd0a081cb6485e7f6c0e9afc9&chksm=178c1efd20fb97eb04586d0f6757f40eee42170a1d71196762cc33751a25df75adbc5d329821&mpshare=1&scene=23&srcid=0518olygZZCnGt2yLNZkepYU&sharer_sharetime=1652861545327&sharer_shareid=32db0bc2d3c4c22843f068f1a5ea1660#rd
-          2015.01.01—2016.08.31中国江苏省扬中市1000多家企业每日用电量数据
-
 # 设计：
+## • 运行环境设计：
+        1、
 
 # 知识原理：
 	  
@@ -43,5 +38,12 @@
 	    ○ 实验表明，对于不同的高价值用户D-W检验值都在2周围波动，范围为1.94~2.06，模型较好
 
 # 运行/部署：
+
+# 数据来源：
+	• cph.xlsx                             
+		○ 示例数据集
+	• Tianchi_power.csv 
+		○ https://mp.weixin.qq.com/s?__biz=MzIxNjE1Njg4OA==&mid=100000074&idx=1&sn=3073ebdfd0a081cb6485e7f6c0e9afc9&chksm=178c1efd20fb97eb04586d0f6757f40eee42170a1d71196762cc33751a25df75adbc5d329821&mpshare=1&scene=23&srcid=0518olygZZCnGt2yLNZkepYU&sharer_sharetime=1652861545327&sharer_shareid=32db0bc2d3c4c22843f068f1a5ea1660#rd
+          2015.01.01—2016.08.31中国江苏省扬中市1000多家企业每日用电量数据
    
 
