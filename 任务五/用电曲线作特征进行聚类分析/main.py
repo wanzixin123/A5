@@ -12,7 +12,7 @@ print(df.head())
 print("当前数据集含有%s行,%s列" % (df.shape[0], df.shape[1]))
 
 # 查看id，可知不同的用户共有1454户
-df['user_id'].value_counts()
+print(df['user_id'].value_counts())
 
 # 改变数据类型
 df.loc[:, 'power_consumption'] = df.power_consumption.astype(float)
@@ -178,10 +178,10 @@ joblib.dump(user_culster,'user_culster.pkl')
 plt.rcParams['font.sans-serif'] = ['SimHei']
 plt.rcParams['axes.unicode_minus'] = False
 # 聚类簇设计
-load_data = np.array(df0, dtype=int)
+data0 = np.array(df0, dtype=int)
 # 导入数据，生成计算模型
 user_culster=joblib.load(filename='user_culster.pkl')
-energy_clusters = user_culster(load_data)
+energy_clusters = user_culster(data0)
 # 计算聚类簇的距离
 energy_clusters.elbow_method(n_clusters=13)
 
@@ -201,10 +201,10 @@ cls = cls.sort_values(by='cluster', ascending=True)
 cls.reset_index(drop=True)
 
 # 获得属于第一分类簇的用户ide
-np.array(cls.loc[cls.cluster == 0].user_id)
+print(np.array(cls.loc[cls.cluster == 0].user_id))
 
 # 获得属于第二分类簇的用户id
-np.array(cls.loc[cls.cluster == 1].user_id)
+print(np.array(cls.loc[cls.cluster == 1].user_id))
 
 # 各组用电数据曲线对比
 energy_clusters.plot()
