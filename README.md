@@ -64,6 +64,7 @@
              - 计算样本点到质心的距离，找到最近的
              - 进行中心点位置更新
           2) k-means++算法
+	  3) k-means算法的SSE检验
 	   	  
 # 方案实现：
 ## • 已完成
@@ -113,7 +114,9 @@
         首先要将数据集cph.xlsx和exe文件放入同一个文件夹，直接运行exe文件即可
     2、预测高价值用户top5
         首先将数据集Tianchi_power.csv和exe文件放入同一个文件夹，直接运行exe文件即可
-    3、电力用户集群划分
+    3、电力用户用电模型
+        在页面中设置好数据集与文件路径，点击对应按钮运行
+    4、电力用户集群划分
         首先将对应文件的csv数据集及pkl模型和exe文件放入同一个文件夹，分别运行每一个exe文件即可
     	
 	
@@ -125,7 +128,7 @@
 	• Tianchi_power.csv 
 		○ https://mp.weixin.qq.com/s?__biz=MzIxNjE1Njg4OA==&mid=100000074&idx=1&sn=3073ebdfd0a081cb6485e7f6c0e9afc9&chksm=178c1efd20fb97eb04586d0f6757f40eee42170a1d71196762cc33751a25df75adbc5d329821&mpshare=1&scene=23&srcid=0518olygZZCnGt2yLNZkepYU&sharer_sharetime=1652861545327&sharer_shareid=32db0bc2d3c4c22843f068f1a5ea1660#rd
           2015.01.01—2016.08.31中国江苏省扬中市1000多家企业每日用电量数据
-    • 数据集.xlsx                             
+    • demo.xlsx                             
 		○ 示例数据集
     • household_power_consumption.csv
     	○ https://s.r.sn.cn/tdd4jn
